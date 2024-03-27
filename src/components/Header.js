@@ -1,8 +1,8 @@
 function Header() {
   return (
     <header>
-      <img src='logo512.png' alt='React logo' />
-      <h1> Indian Polity and Governance</h1>
+      <img src='upsc logo.png' alt='Upsc logo' />
+      <h4>Civil Services Quiz</h4>
     </header>
   );
 }
