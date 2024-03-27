@@ -8,6 +8,7 @@ import Loader from './Loader';
 import Error from './Error';
 import Question from './Question';
 import NextButton from './NextButton';
+import Progress from './Progress';
 
 const initialState = {
   questions: [],
@@ -60,11 +61,15 @@ function reducer(state, action) {
   }
 }
 function App() {
-  const [{ questions, status, index, answer }, dispatch] = useReducer(
+  const [{ questions, status, index, answer, points }, dispatch] = useReducer(
     reducer,
     initialState
   );
   const numQuestions = questions.length;
+  const maxPossiblePoints = questions.reduce(
+    (acc, curr) => acc + curr.points,
+    0
+  );
 
   useEffect(() => {
     axios
@@ -86,6 +91,13 @@ function App() {
         )}
         {status === 'active' && (
           <>
+            <Progress
+              maxPossiblePoints={maxPossiblePoints}
+              points={points}
+              index={index}
+              answer={answer}
+              numQuestions={numQuestions}
+            />
             <Question
               questions={questions[index]}
               dispatch={dispatch}
