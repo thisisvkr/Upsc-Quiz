@@ -1,138 +1,153 @@
 {
   "questions": [
     {
-      "question": "Which is the most popular JavaScript framework?",
-      "options": ["Angular", "React", "Svelte", "Vue"],
+      "question": "Which is the most widely adopted form of government in India?",
+      "options": ["Monarchy", "Democracy", "Autocracy", "Oligarchy"],
       "correctOption": 1,
       "points": 10
     },
     {
-      "question": "Which company invented React?",
-      "options": ["Google", "Apple", "Netflix", "Facebook"],
-      "correctOption": 3,
-      "points": 10
-    },
-    {
-      "question": "What's the fundamental building block of React apps?",
-      "options": ["Components", "Blocks", "Elements", "Effects"],
-      "correctOption": 0,
-      "points": 10
-    },
-    {
-      "question": "What's the name of the syntax we use to describe the UI in React components?",
-      "options": ["FBJ", "Babel", "JSX", "ES2015"],
+      "question": "Which institution is responsible for conducting elections in India?",
+      "options": [
+        "Supreme Court",
+        "Parliament",
+        "Election Commission",
+        "Cabinet Secretariat"
+      ],
       "correctOption": 2,
       "points": 10
     },
     {
-      "question": "How does data flow naturally in React apps?",
+      "question": "What is the fundamental unit of Indian administration?",
+      "options": ["District", "State", "Union Territory", "Village"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "What is the official language used in the Indian Parliament?",
+      "options": ["Hindi", "English", "Sanskrit", "Both Hindi and English"],
+      "correctOption": 3,
+      "points": 10
+    },
+    {
+      "question": "How does power flow in the Indian political system?",
       "options": [
-        "From parents to children",
-        "From children to parents",
+        "From the President to the Prime Minister",
+        "From the Prime Minister to the President",
         "Both ways",
-        "The developers decides"
+        "As per the Constitution"
       ],
-      "correctOption": 0,
+      "correctOption": 3,
       "points": 10
     },
     {
-      "question": "How to pass data into a child component?",
-      "options": ["State", "Props", "PropTypes", "Parameters"],
+      "question": "How is a bill passed in the Parliament?",
+      "options": [
+        "By the President",
+        "By the Members of Parliament",
+        "By the Prime Minister",
+        "By the Supreme Court"
+      ],
       "correctOption": 1,
       "points": 10
     },
     {
-      "question": "When to use derived state?",
+      "question": "When is President's rule imposed in a state?",
       "options": [
-        "Whenever the state should not trigger a re-render",
-        "Whenever the state can be synchronized with an effect",
-        "Whenever the state should be accessible to all components",
-        "Whenever the state can be computed from another state variable"
-      ],
-      "correctOption": 3,
-      "points": 30
-    },
-    {
-      "question": "What triggers a UI re-render in React?",
-      "options": [
-        "Running an effect",
-        "Passing props",
-        "Updating state",
-        "Adding event listeners to DOM elements"
-      ],
-      "correctOption": 2,
-      "points": 20
-    },
-    {
-      "question": "When do we directly \"touch\" the DOM in React?",
-      "options": [
-        "When we need to listen to an event",
-        "When we need to change the UI",
-        "When we need to add styles",
-        "Almost never"
-      ],
-      "correctOption": 3,
-      "points": 20
-    },
-    {
-      "question": "In what situation do we use a callback to update state?",
-      "options": [
-        "When updating the state will be slow",
-        "When the updated state is very data-intensive",
-        "When the state update should happen faster",
-        "When the new state depends on the previous state"
-      ],
-      "correctOption": 3,
-      "points": 30
-    },
-    {
-      "question": "If we pass a function to useState, when will that function be called?",
-      "options": [
-        "On each re-render",
-        "Each time we update the state",
-        "Only on the initial render",
-        "The first time we update the state"
-      ],
-      "correctOption": 2,
-      "points": 30
-    },
-    {
-      "question": "Which hook to use for an API request on the component's initial render?",
-      "options": ["useState", "useEffect", "useRef", "useReducer"],
-      "correctOption": 1,
-      "points": 10
-    },
-    {
-      "question": "Which variables should go into the useEffect dependency array?",
-      "options": [
-        "Usually none",
-        "All our state variables",
-        "All state and props referenced in the effect",
-        "All variables needed for clean up"
-      ],
-      "correctOption": 2,
-      "points": 30
-    },
-    {
-      "question": "An effect will always run on the initial render.",
-      "options": [
-        "True",
-        "It depends on the dependency array",
-        "False",
-        "In depends on the code in the effect"
+        "When the state government is not able to function as per the Constitution",
+        "When the state government is not able to pay its debts",
+        "When the state government is not able to maintain law and order",
+        "When the state government requests for it"
       ],
       "correctOption": 0,
       "points": 30
     },
     {
-      "question": "When will an effect run if it doesn't have a dependency array?",
+      "question": "What triggers a General Election in India?",
       "options": [
-        "Only when the component mounts",
-        "Only when the component unmounts",
-        "The first time the component re-renders",
-        "Each time the component is re-rendered"
+        "Completion of the tenure of the Lok Sabha",
+        "Resignation of the Prime Minister",
+        "Dissolution of the State Assemblies",
+        "Death of the President"
+      ],
+      "correctOption": 0,
+      "points": 20
+    },
+    {
+      "question": "When is the Constitution of India amended?",
+      "options": [
+        "When there is a change in the international policies",
+        "When there is a change in the national policies",
+        "When there is a need for social reform",
+        "As per the provisions in the Constitution"
       ],
       "correctOption": 3,
+      "points": 20
+    },
+    {
+      "question": "In what situation is a Joint Session of Parliament called?",
+      "options": [
+        "When there is a deadlock between the two Houses of Parliament",
+        "When there is a national emergency",
+        "When there is a constitutional crisis",
+        "When the President deems it necessary"
+      ],
+      "correctOption": 0,
+      "points": 30
+    },
+    {
+      "question": "If a Constitutional Amendment Bill is introduced in the Parliament, when will it be considered passed?",
+      "options": [
+        "When it is passed by a simple majority in both Houses",
+        "When it is passed by a two-thirds majority in both Houses",
+        "Only when it is also ratified by half of the State Legislatures",
+        "When it is passed by a two-thirds majority in both Houses and ratified by half of the State Legislatures"
+      ],
+      "correctOption": 3,
+      "points": 30
+    },
+    {
+      "question": "Which body is responsible for maintaining law and order in a state?",
+      "options": [
+        "The President",
+        "The Governor",
+        "The Chief Minister",
+        "The State Police"
+      ],
+      "correctOption": 3,
+      "points": 10
+    },
+    {
+      "question": "Who should be consulted while appointing the Governor of a state?",
+      "options": [
+        "The Chief Minister of that state",
+        "The Chief Justice of India",
+        "The Speaker of the Lok Sabha",
+        "The President of India"
+      ],
+      "correctOption": 0,
+      "points": 30
+    },
+    {
+      "question": "A Money Bill can be introduced in the Parliament with the prior permission of the:",
+      "options": [
+        "President",
+        "Prime Minister",
+        "Speaker of the Lok Sabha",
+        "Chief Justice of India"
+      ],
+      "correctOption": 0,
+      "points": 30
+    },
+    {
+      "question": "When will a Proclamation of Emergency made by the President be effective?",
+      "options": [
+        "Immediately after the proclamation is made",
+        "After it is approved by both Houses of Parliament",
+        "After it is approved by the Cabinet",
+        "After it is approved by the Supreme Court"
+      ],
+      "correctOption": 1,
       "points": 20
     }
   ]
